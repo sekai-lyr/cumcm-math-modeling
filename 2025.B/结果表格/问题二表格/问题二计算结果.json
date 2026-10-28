@@ -1,0 +1,89 @@
+{
+  "status": "STABLE_D",
+  "n_interpretation": "nuisance_parameter_only_not_identified",
+  "phase": {
+    "nuisance_n_cm-3": 1000000000000000.0,
+    "nuisance_n_at_search_boundary": true,
+    "d_um": 7.444533238047986,
+    "d_interval_um": [
+      7.265572292058969,
+      7.444533238047986
+    ],
+    "rmse_order": 0.04669637912307397,
+    "selection_metric": "raw_rmse_order",
+    "huber_diagnostic": 0.8615943813798441,
+    "outlier_count": 2,
+    "max_abs_residual": 0.1436684169618161,
+    "single_angle": {
+      "10deg": {
+        "d_um": 7.432375843094592,
+        "rmse_order": 0.015772151902346505,
+        "outlier_count": 0
+      },
+      "15deg": {
+        "d_um": 7.569543982909931,
+        "rmse_order": 0.05490759854339099,
+        "outlier_count": 0
+      }
+    }
+  },
+  "tmm": {
+    "nuisance_n_cm-3": 8.91250938133744e+18,
+    "d_um": 7.17,
+    "score": 0.034397640073312995,
+    "rmse_reflectance": 0.13114427184081087,
+    "nuisance_n_at_search_boundary": false,
+    "calibrations": {
+      "10.0": [
+        8.589576826371982,
+        53.04600531382446
+      ],
+      "15.0": [
+        7.310504183095665,
+        64.78689696865902
+      ]
+    }
+  },
+  "relative_difference": 0.03756989478572689,
+  "analysis_band_cm-1": [
+    2000.0,
+    3900.0
+  ],
+  "sellmeier_source": {
+    "material": "4H-SiC",
+    "direction": "ordinary",
+    "wavelength_range_um": [
+      0.4047,
+      5.0
+    ],
+    "doi": "10.1002/lpor.201300068"
+  },
+  "detected_extrema_count": {
+    "10deg_peaks": 6,
+    "10deg_troughs": 7,
+    "15deg_peaks": 6,
+    "15deg_troughs": 7
+  },
+  "material": {
+    "sellmeier_b": [
+      0.20075,
+      5.54861,
+      35.65066
+    ],
+    "sellmeier_c_um2": [
+      -12.07224,
+      0.02641,
+      1268.24708
+    ],
+    "sellmeier_wavelength_min_um": 0.4047,
+    "sellmeier_wavelength_max_um": 5.0,
+    "gamma_carrier_cm": 59.72,
+    "mass_ratio": 0.355,
+    "substrate_wp_cm": 376.6,
+    "substrate_gamma_carrier_cm": 447.46
+  },
+  "source_files": [
+    "B:\\Sekai_Competition\\8.25.pm.2025.B\\data\\附件1.xlsx",
+    "B:\\Sekai_Competition\\8.25.pm.2025.B\\data\\附件2.xlsx"
+  ]
+}
